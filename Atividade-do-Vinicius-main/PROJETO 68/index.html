@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Lugar legal</title>
+
+        <link rel="stylesheet" type='text/css' href="style.css">
+                
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body>
+
+        <!--Defina a classe para navbar-inverse meuMenu-->
+        <nav class="navbar-inverse meuMenu">
+
+            <!--defina a classe para navbar-header -->
+            <div class="navbar-header">
+                <!--defina a classe para navbar-toggle, defina o data-toggle para collapse e defina o data-target para meuMenu-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="meuMenu">
+                <!--Para fazer o "hamburguer", defina a classe para icon-bar -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"> Kirby </a>
+            </div>
+            <!--Defina o id para meuMenu e a classe para collapse navbar-collapse -->
+            <div class="collapse navbar-collapse" id="meuMenu">
+                <!--Defina a classe para nav navbar-nav-->
+                <ul class="nav navbar-nav">
+                    <li><a href="#videos"> VIDEOS  </a></li>
+                    <li><a href="#sobre"> SOBRE MIM</a></li>                 
+                </ul>
+            </div>
+        </nav>
+      <center>
+        <!--Para que a página seja responsiva, defina a classe para container -->
+        <div class="container">
+      
+            <!--Defina o id para videos-->
+            <section id="video">
+                
+                <!--Coloque o vídeo do youtube aqui e deixe o tamanho responsivo mudando a largura e a altura para 80%  -->
+             <img src="https://www.youtube.com/watch?v=MuhLDoNobPw&t=1345s">   
+
+            </section>
+
+
+            <!--Defina o id da section para "sobre" -->
+            <section id="sobre">
+
+            <!-- coloque o título da página-->
+            <h2 class="page-header"> </h2>
+                
+
+                <div class="principal">
+
+                <!-- Coloque o link da imagem que deseja e deixe seu tamanho responsivo, definindo a largura e a altura para 50%-->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtz9D-w9eRmSbX04T2MeDBwXrJ1Re2zFRkHA&usqp=CAU" width="50%" height="50%">
+                
+                <!--defina a classe para text-capitalize para deixar todas as iniciais maiúsculas-->
+                <h4 class="text-capitalize" style="font-size:50px;"> 
+                    
+                    <kbd>Kirby</kbd>
+                
+                </h4>
+                <hr>
+                
+
+                <!--defina a classe para text-sucess text-capitalize para estilizar esse texto-->
+                <h5 class="text-sucess text-capitalize"> Mais informações legais sobre seu tema favorito </h5>
+
+                <p class="text-muted">
+                <!-- apague esse texto e escreva mais sobre o tema escolhido -->
+
+                Kirby (カービィ Kābī) é o protagonista titular da série de jogos eletrônicos Kirby desenvolvidos pela Nintendo e pela HAL Laboratory. Kirby já apareceu em mais de vinte jogos desde 1992 e estrelou em sua própria série animada. A série Kirby já vendeu mais de 33 milhões de unidades em todo o mundo.
+
+                </p>
+            </div>
+        </center>
+        </section>
+
+    </div>
+</body>
+</html>
